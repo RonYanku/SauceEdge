@@ -14,11 +14,11 @@ const buildControl = (props) => (
         <div className={classes.Label}>{props.prices[props.label]}$</div>
         <ButtonGroup>
             <Button 
-                style={{ margin: "5px", width: "60px", height: "60px", background: "rgb(214, 197, 46)", color:"black", boxShadow: "5px 5px 3px rgba(46, 46, 46, 0.62)"}}
+                style={{ margin: "5px", width: "50px", height: "50px", background: "rgb(214, 197, 46)", color:"black", boxShadow: "5px 5px 3px rgba(46, 46, 46, 0.62)"}}
                 onClick={props.removed} 
                 disabled={props.disabled}><FaMinus /></Button>
             <Button
-                style={{margin: "5px", width: "60px", height: "60px", background:"rgb(214, 197, 46)", color:"black", boxShadow: "5px 5px 3px rgba(46, 46, 46, 0.62)"}}
+                style={{margin: "5px", width: "50px", height: "50px", background:"rgb(214, 197, 46)", color:"black", boxShadow: "5px 5px 3px rgba(46, 46, 46, 0.62)"}}
                 className={classes.More} 
                 onClick={props.added}><FaPlus /></Button>
         </ButtonGroup>

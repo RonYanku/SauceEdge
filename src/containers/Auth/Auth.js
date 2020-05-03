@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import { useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form/dist/react-hook-form.ie11'
 import Spinner from '../../components/UI/Spinner/Spinner';
 import classes from './Auth.css';
 import * as actions from '../../store/actions/index';
