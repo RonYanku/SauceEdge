@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
     border: 1px solid #eee;
     box-shadow: 0 4px 4px rgb(92, 84, 11);
     padding: 10px;
@@ -28,7 +28,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 90%;
         border: 1px solid #eee;
         box-shadow: 0 4px 4px rgb(92, 84, 11);
         padding: 10px;
@@ -64,8 +64,6 @@
     color: #ccc;
     cursor: not-allowed;
 }
-
-
 
 .Label {
     font-weight: bold;
