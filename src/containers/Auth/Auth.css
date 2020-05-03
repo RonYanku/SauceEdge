@@ -1,0 +1,26 @@
+.SauceEdge {
+    color: yellow;
+    font-size: 22px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Auth {
+    position: fixed;
+    top: 200px;
+    left: 10%; 
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+/* 
+@media (max-width: 500px) {
+    .Auth {
+        width: 500px;
+    }
+} */

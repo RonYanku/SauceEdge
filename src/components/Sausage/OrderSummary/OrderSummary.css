@@ -1,0 +1,13 @@
+.summaryButton {
+    width: 110px;
+}
+
+.summaryButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orderStructure {
+    padding: 10px;
+}

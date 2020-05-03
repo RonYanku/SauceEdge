@@ -1,0 +1,51 @@
+.PaymentSuccessful {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: yellow;
+    font-size: 22px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+.PaymentData {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.PaymentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    font-size: 22px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media (min-width: 600px) {
+    .PaymentData {
+        width: 500px;
+    }
+}
+
+.PaymentInput {
+        display: block;
+        border: none;
+        font-size: 18px;
+        margin: 10px 0 20px 0;
+        max-width: 100%;
+        padding: 10px 14px;
+        box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+          rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+        border-radius: 4px;
+        background: white;
+        color: #424770;
+        letter-spacing: 0.025em;
+        width: 500px;
+}
