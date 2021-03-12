@@ -39,7 +39,7 @@
     "r": "0.0.5",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.1",
-    "react-dev-utils": "^4.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-hook-form": "^5.5.3",
     "react-icons": "^3.10.0",
